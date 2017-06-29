@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing.Test", "Some.Routing\Routing.Test.csproj", "{0815EC9B-E4ED-487C-87E3-13B9A0173A47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B6BCE1D3-A8A7-45D6-8BAE-630087AC410D}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Some.Routing.vsmdi = Some.Routing.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "com.some.routing", "com.some.routing", "{F210AE7C-7A84-44DD-A0AB-83FA19301536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing.Application", "Routing.Application\Routing.Application.csproj", "{91485BBC-E6B8-4205-8112-9A4A8F1DF4D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing.Entity", "Routing.Entity\Routing.Entity.csproj", "{CAD99118-871E-4A52-AC56-263B3B29995F}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Some.Routing.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0815EC9B-E4ED-487C-87E3-13B9A0173A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0815EC9B-E4ED-487C-87E3-13B9A0173A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0815EC9B-E4ED-487C-87E3-13B9A0173A47}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0815EC9B-E4ED-487C-87E3-13B9A0173A47}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0815EC9B-E4ED-487C-87E3-13B9A0173A47}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0815EC9B-E4ED-487C-87E3-13B9A0173A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0815EC9B-E4ED-487C-87E3-13B9A0173A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0815EC9B-E4ED-487C-87E3-13B9A0173A47}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0815EC9B-E4ED-487C-87E3-13B9A0173A47}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0815EC9B-E4ED-487C-87E3-13B9A0173A47}.Release|x86.ActiveCfg = Release|Any CPU
+		{91485BBC-E6B8-4205-8112-9A4A8F1DF4D4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{91485BBC-E6B8-4205-8112-9A4A8F1DF4D4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{91485BBC-E6B8-4205-8112-9A4A8F1DF4D4}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{91485BBC-E6B8-4205-8112-9A4A8F1DF4D4}.Debug|x86.ActiveCfg = Debug|x86
+		{91485BBC-E6B8-4205-8112-9A4A8F1DF4D4}.Debug|x86.Build.0 = Debug|x86
+		{91485BBC-E6B8-4205-8112-9A4A8F1DF4D4}.Release|Any CPU.ActiveCfg = Release|x86
+		{91485BBC-E6B8-4205-8112-9A4A8F1DF4D4}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{91485BBC-E6B8-4205-8112-9A4A8F1DF4D4}.Release|Mixed Platforms.Build.0 = Release|x86
+		{91485BBC-E6B8-4205-8112-9A4A8F1DF4D4}.Release|x86.ActiveCfg = Release|x86
+		{91485BBC-E6B8-4205-8112-9A4A8F1DF4D4}.Release|x86.Build.0 = Release|x86
+		{CAD99118-871E-4A52-AC56-263B3B29995F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD99118-871E-4A52-AC56-263B3B29995F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD99118-871E-4A52-AC56-263B3B29995F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{CAD99118-871E-4A52-AC56-263B3B29995F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{CAD99118-871E-4A52-AC56-263B3B29995F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CAD99118-871E-4A52-AC56-263B3B29995F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD99118-871E-4A52-AC56-263B3B29995F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD99118-871E-4A52-AC56-263B3B29995F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{CAD99118-871E-4A52-AC56-263B3B29995F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{CAD99118-871E-4A52-AC56-263B3B29995F}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6BCE1D3-A8A7-45D6-8BAE-630087AC410D} = {F210AE7C-7A84-44DD-A0AB-83FA19301536}
+		{0815EC9B-E4ED-487C-87E3-13B9A0173A47} = {F210AE7C-7A84-44DD-A0AB-83FA19301536}
+		{91485BBC-E6B8-4205-8112-9A4A8F1DF4D4} = {F210AE7C-7A84-44DD-A0AB-83FA19301536}
+		{CAD99118-871E-4A52-AC56-263B3B29995F} = {F210AE7C-7A84-44DD-A0AB-83FA19301536}
+	EndGlobalSection
+EndGlobal

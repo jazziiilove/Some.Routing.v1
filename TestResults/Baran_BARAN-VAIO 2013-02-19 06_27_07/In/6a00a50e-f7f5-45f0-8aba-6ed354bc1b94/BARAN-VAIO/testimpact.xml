@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Set_Prefix_With_1_By_Constructor" IsTestCase="false" TestCaseId="0" AutomatedTestId="8b9d0900-c4a8-91db-73a9-a891935e1b97">
+  <Signatures>
+    <Signature>B5B34D4630B44D93F2F279469CF61818A5B7FF72</Signature>
+    <Signature>8BB23442B1992D28EA6E526655B88B056661FC58</Signature>
+    <Signature>0F86044AC9018DBF6C7B485E091C21DACA455FA7</Signature>
+    <Signature>B27FC8DCACFC1F56888D89F1871EAC19B4169B67</Signature>
+    <Signature>6A907DC25C46C6CF1A688411F48A36FF945DC199</Signature>
+    <Signature>2F3BD359B91E2D4C4B8ABC192A533043333727B0</Signature>
+    <Signature>D309CA084D4BCB6DC9BB46E7EF887688D55B5293</Signature>
+  </Signatures>
+</Test>

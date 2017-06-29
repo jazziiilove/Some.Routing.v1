@@ -1,0 +1,1406 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a8f6eaee-82c9-41be-b653-7e53600c844d" name="Baran@BARAN-VAIO 2013-02-19 06:27:07" runUser="BARAN-VAIO\Baran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="404d831e-5075-44af-abd4-1d0c034e0033">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Deployment runDeploymentRoot="Baran_BARAN-VAIO 2013-02-19 06_27_07">
+      <DeploymentItem filename="C:\Users\Baran\Desktop\Xylem-Exercise-BaranTopal\C#.NET\Xylem.Routing.v1\Routing.Entity\bin\Debug\Routing.Entity.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/ActionLog/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.ManualTest.ActionLog.ActionLogPlugin, Microsoft.VisualStudio.TestTools.ManualTest.ActionLog, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Actions">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-19T06:27:07.6137117+01:00" queuing="2013-02-19T06:27:15.8321818+01:00" start="2013-02-19T06:27:46.2019188+01:00" finish="2013-02-19T06:28:02.3648433+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="56" executed="56" passed="56" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CanJoin_OneDelimTwoNumeric" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="8033b327-910e-30ec-de2b-20e995f8df96">
+      <Execution id="50695b85-b4ec-420c-9625-a6373ad7f5be" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanJoin_OneDelimTwoNumeric" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_Two_Delimiter_With_One_Numeric2" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="3a1529f0-d588-88b3-d558-ede589cc3f93">
+      <Execution id="35f88183-3e6a-42db-8aae-510280d7eac5" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_Two_Delimiter_With_One_Numeric2" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_AlphaOneMatch" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="2c46a7de-9ef3-8602-a886-59565de1e5d1">
+      <Execution id="591bbad9-e490-4aa5-95af-25da16881cb4" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_AlphaOneMatch" />
+    </UnitTest>
+    <UnitTest name="CanJoin_OneAlpha" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="8ab84981-3b3a-eaea-7820-8097e782bd0d">
+      <Execution id="06ee4bce-2514-4eb2-9287-14a1aba1ca59" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanJoin_OneAlpha" />
+    </UnitTest>
+    <UnitTest name="Set_Prefix_With_1_By_Constructor" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="8b9d0900-c4a8-91db-73a9-a891935e1b97">
+      <Execution id="6a00a50e-f7f5-45f0-8aba-6ed354bc1b94" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.OperatorTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Set_Prefix_With_1_By_Constructor" />
+    </UnitTest>
+    <UnitTest name="Set_Prefix_With_Negative_By_Constructor" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="f296844d-e75d-5e52-8f07-2d9da6b8f871">
+      <Execution id="fdf3a974-ab40-437e-81e3-d26454fddb0c" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.OperatorTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Set_Prefix_With_Negative_By_Constructor" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_Perfect_Match" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="6f87abf3-d8e6-af81-7874-eea8e42101f5">
+      <Execution id="b57dc97d-0864-4627-9fa7-3b31178dfa30" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_Perfect_Match" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_Two_Delims_Two_Numerics3" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="5a43c837-b6f7-8a58-2ae1-3895827e6b5f">
+      <Execution id="33cea8e5-80b7-4812-bbe4-e1d31681fe25" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_Two_Delims_Two_Numerics3" />
+    </UnitTest>
+    <UnitTest name="CanJoin_OneDelim" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="3dcabc99-b46a-1040-eaec-65f0e985eb42">
+      <Execution id="363ac641-0dec-43f0-8536-9508689cd2ec" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanJoin_OneDelim" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_InputLowBoundaryExceedIntegerPartialMatchDiscard" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="50a38fe8-d4e4-dec7-2274-38aa967408bd">
+      <Execution id="bf796ef7-d962-40e4-bf42-9b632bf39aeb" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_InputLowBoundaryExceedIntegerPartialMatchDiscard" />
+    </UnitTest>
+    <UnitTest name="Set_Prefix_With_Boundary_By_Constructor" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="19194bfb-2edd-c193-9554-38834175cc15">
+      <Execution id="281436dd-0114-49d5-a41c-ed84387f63f3" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.OperatorTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Set_Prefix_With_Boundary_By_Constructor" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_Empty2" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="7db65c9b-0bde-61e8-c41b-81a49deede45">
+      <Execution id="3a436bea-eb22-4481-b39a-1fe2be35a515" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_Empty2" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_Two_Delims_Two_Numerics1" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="26316a9e-9a69-5f26-f0ce-78fef82dbb05">
+      <Execution id="a7ac4c55-d941-4d87-917a-c49014e99226" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_Two_Delims_Two_Numerics1" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_InputLowBoundaryExceedIntegerNoMatch" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="e6878a51-bb05-09ef-4dbd-05539b8fc274">
+      <Execution id="f2b3643c-4fa7-4d4d-824a-3e68b22bc1b2" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_InputLowBoundaryExceedIntegerNoMatch" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_InputLowBoundaryExceedIntegerMultiMatch" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="03581d7c-f453-8b1e-3c1c-4bb017a90a17">
+      <Execution id="ea09845b-6c30-416f-a7f3-a10a0dd6afb8" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_InputLowBoundaryExceedIntegerMultiMatch" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_ExampleData" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="34a7a836-2370-16cf-9d7e-c089260fd84a">
+      <Execution id="1e3730f0-b44c-4906-92df-6ba768415ff7" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_ExampleData" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_InputUpBoundaryExceedIntegerLongestMatch" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="58cb2fac-b69c-034b-5e66-ce74d6b1ebc9">
+      <Execution id="2b695cfc-c635-49e5-beaa-0a36ad78621c" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_InputUpBoundaryExceedIntegerLongestMatch" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_One_Numeric" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="c3d35b1e-2277-70ed-f8bc-564f00d3c9ea">
+      <Execution id="67c36484-afe9-4032-a65f-ecf77d4fc584" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_One_Numeric" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_Two_Delimiters_Diff" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="5d8cc396-735a-14ad-e883-96db575827fa">
+      <Execution id="d9255691-9ae8-48b3-9db1-84965a21030d" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_Two_Delimiters_Diff" />
+    </UnitTest>
+    <UnitTest name="CanJoin_OneDelimOneNumeric" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="028e5c0a-d10d-dc40-4be8-b8fb4a57d4c6">
+      <Execution id="a7afe5f8-dc36-4e2b-9fed-afeb491e5757" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanJoin_OneDelimOneNumeric" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_Two_Delimiters2" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="115bce02-3cca-6a89-4be1-b6bcb34d4cd3">
+      <Execution id="cccc7fcd-e5b8-4eeb-beb7-bcbcbb63d100" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_Two_Delimiters2" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_MultiMatch" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="b68f3b94-ecad-5e30-a39c-3503bddd880e">
+      <Execution id="d3f4d4ac-466f-44fe-b23f-11add4ea11d3" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_MultiMatch" />
+    </UnitTest>
+    <UnitTest name="CannotJoin_NonAlpha" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="bd878030-fd7e-9dee-6362-2cb5df5a7627">
+      <Execution id="a2e6c1f2-2682-46fa-86fa-b7ec592b30bf" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CannotJoin_NonAlpha" />
+    </UnitTest>
+    <UnitTest name="CanRead_PartialListTextFile1" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="c75bb26f-7971-f998-d17c-22496797a229">
+      <Execution id="d55f832a-c432-4ff7-8e09-5fd039435ca9" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanRead_PartialListTextFile1" />
+    </UnitTest>
+    <UnitTest name="CanJoin_TwoNumeric" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="86aeb78a-8e8e-c8ca-8cdb-577121c05131">
+      <Execution id="d007ead5-e8f6-4f32-9382-e5f4d52f8579" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanJoin_TwoNumeric" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_Two_Delimiter_With_One_Numeric3" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="65176b37-e1dd-d711-7e26-7ab50efbd0a0">
+      <Execution id="8b80522c-af69-4361-98dd-80f31ac68df5" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_Two_Delimiter_With_One_Numeric3" />
+    </UnitTest>
+    <UnitTest name="CanJoin_OneDelimOneAlpha" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="6cf6d9ad-0b4b-f96b-04b3-595c7550f530">
+      <Execution id="645e09bd-5eea-4fec-b70f-71a26de82f76" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanJoin_OneDelimOneAlpha" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_One_Alpha" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="406970ca-951e-c386-b1ae-c7dca2244b11">
+      <Execution id="29c84e86-d1c3-4662-86c3-5a7cf3f10018" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_One_Alpha" />
+    </UnitTest>
+    <UnitTest name="CanJoin_Empty" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="fb8c88ff-8ff6-ae39-8e37-df64873d2ce5">
+      <Execution id="75938852-78cc-48f5-8b25-0ebc454ea3e2" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanJoin_Empty" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_InputLowBoundaryExceedIntegerLongestMatch" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="41de26a4-2629-80f3-c59e-967c40264034">
+      <Execution id="46d9c68b-361b-4d95-8d2e-6e4ea6a5fd7b" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_InputLowBoundaryExceedIntegerLongestMatch" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_Two_Delimiters1" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="fd258010-8ec5-fa57-f67d-af68e6163565">
+      <Execution id="9f5b3267-62ea-490c-938b-6be3787d400a" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_Two_Delimiters1" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_Two_Delims_Two_Numerics2" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="eb94a57f-86e2-9c76-61a8-f5ac3dcd1ab8">
+      <Execution id="868eb3e8-c9cd-4dc1-b3df-74012048e894" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_Two_Delims_Two_Numerics2" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_InputUpBoundaryExceedIntegerPartialMatchDiscard" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="61581723-8f7e-9df2-5454-63bfc573f2ed">
+      <Execution id="10c66bfd-08e2-4f18-8e7c-fd225cce85ac" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_InputUpBoundaryExceedIntegerPartialMatchDiscard" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_InputUpBoundaryExceedIntegerNoMatch" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="a379b317-a5bd-1a86-5945-2c18e3b99109">
+      <Execution id="f3547158-a1fc-443e-b4f7-405a3574d133" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_InputUpBoundaryExceedIntegerNoMatch" />
+    </UnitTest>
+    <UnitTest name="CanRead_PartialListTextFile3" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="8bf7b4c8-9b6c-2b5c-c1c3-206ac71259fc">
+      <Execution id="c621ac08-ac7f-4f60-8038-5f895922d32e" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanRead_PartialListTextFile3" />
+    </UnitTest>
+    <UnitTest name="Set_Price_Prefix_With_Boundary_1_By_Constructor" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="93620807-0cc0-66f7-ff97-5454076e98d1">
+      <Execution id="35240ac6-4953-4e50-a4ca-3e273652687b" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.OperatorTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Set_Price_Prefix_With_Boundary_1_By_Constructor" />
+    </UnitTest>
+    <UnitTest name="CannotRead_Gibberish" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="42695eaf-d159-db18-bac5-76cfa07cc903">
+      <Execution id="2d06ce4e-268d-4b5c-943c-bd9f7a68c51c" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CannotRead_Gibberish" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_One_Delimiter" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="854e9205-6fa8-c676-a5fa-fff6b0dec57a">
+      <Execution id="63795a5d-db01-43e6-982e-fc000a7a62cf" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_One_Delimiter" />
+    </UnitTest>
+    <UnitTest name="CanJoin_OneNumeric" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="13f5ea85-3c92-4c79-13c8-02df37581306">
+      <Execution id="ef131cd9-114c-4cfb-9b73-e67e9eba9693" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanJoin_OneNumeric" />
+    </UnitTest>
+    <UnitTest name="Set_Prefix_With_0_By_Constructor" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="fec123b8-cc77-768a-fa3f-9fe0924b6f49">
+      <Execution id="0295c6e3-1b78-4cb0-82ac-5df8c2f84966" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.OperatorTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Set_Prefix_With_0_By_Constructor" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_PartialMatch_Discard" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="c25c1549-d480-1359-d207-db88be7299b8">
+      <Execution id="06ba5160-bace-4a2f-8496-1b1ac3a8a240" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_PartialMatch_Discard" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_AlphaZeroMatch" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="05851dfc-e26b-9336-e231-f75a491906f8">
+      <Execution id="62f97ada-45d8-4aec-afc2-3862bb2b1e50" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_AlphaZeroMatch" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_InputUpBoundaryExceedIntegerMultiMatch" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="6cddf26c-8d34-8ef3-632e-343b72effef5">
+      <Execution id="cb35f485-bdf6-480c-beaf-89f60e76fbba" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_InputUpBoundaryExceedIntegerMultiMatch" />
+    </UnitTest>
+    <UnitTest name="CannotRead_NoTextFile" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="4f8c5f17-314d-948f-0284-369b9bbf876b">
+      <Execution id="d273b329-a894-42ed-aa79-8ffefa40a40c" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CannotRead_NoTextFile" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_Perfect_Match_Long_Limit" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="063561d7-aa97-89a6-34d5-7abd6d1d457d">
+      <Execution id="542aaadb-1acd-471e-b1a1-9df5fb5756c8" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_Perfect_Match_Long_Limit" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_Delimiter_Two_Numerics" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="3889717e-20d4-649c-af56-dfa1979dae8b">
+      <Execution id="28a3b0ef-43c9-4613-9044-d2914e5f2bc4" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_Delimiter_Two_Numerics" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_NoMatchAtAll2" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="b11d1653-7c5d-b5b6-08ca-6a09ac659e6b">
+      <Execution id="c6766b75-fe60-46c2-898c-acecd59ad9b7" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_NoMatchAtAll2" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_NoMatchAtAll1" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="6ccf92d2-a060-1761-27ed-90635de7f638">
+      <Execution id="9ffd0203-eaf0-4497-b5ac-d54aa52c3d84" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_NoMatchAtAll1" />
+    </UnitTest>
+    <UnitTest name="CanGetOccurence_Empty1" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="d76f6886-5838-e958-30c4-1036540597fb">
+      <Execution id="3cf501ab-032e-497a-9af0-c84fbd71dae5" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanGetOccurence_Empty1" />
+    </UnitTest>
+    <UnitTest name="CanJoin_TwoDelims_OneNumeric" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="fa4811cf-e879-dcac-0463-577396cf7190">
+      <Execution id="eeec55e2-5d9d-424e-b220-5a220e5cf21b" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanJoin_TwoDelims_OneNumeric" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_Empty" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="ab1eac82-8e13-e46d-5bc0-42d3f9450e79">
+      <Execution id="4562394b-88a5-4c3c-903d-138ce1a6727c" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_Empty" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_Delimiter_With_One_Numeric" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="a142240f-169b-6879-dcaf-bae49812e2d3">
+      <Execution id="d537d37f-ec08-4ae2-b903-695d0bbfa5a2" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_Delimiter_With_One_Numeric" />
+    </UnitTest>
+    <UnitTest name="CanRead_PartialListTextFile2" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="b8c39a66-25ed-7613-61cf-bf11053721b5">
+      <Execution id="5f39b30f-f1f0-4a18-8453-3d6371b5aeb3" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanRead_PartialListTextFile2" />
+    </UnitTest>
+    <UnitTest name="CanRead_Path" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="736bbebe-e627-e6f6-4084-a38f2d577388">
+      <Execution id="0cdc882e-aa7d-4337-9b59-8d8f64a9eb4d" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanRead_Path" />
+    </UnitTest>
+    <UnitTest name="CanRead_EmptyTextFile" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="b134e9a1-740e-2b86-604f-45c29d704c41">
+      <Execution id="55d33b41-9b00-4627-a93d-786e55cdc875" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanRead_EmptyTextFile" />
+    </UnitTest>
+    <UnitTest name="WorkItem_Constructor_Sets_Two_Delimiter_With_One_Numeric1" storage="c:\users\baran\desktop\xylem-exercise-barantopal\c#.net\xylem.routing.v1\xylem.routing\bin\debug\alatest.routing.dll" id="87a37819-9fe8-c328-c2bf-b03d12472e49">
+      <Execution id="c6793280-5e8e-49aa-b42a-98b61b8061fa" />
+      <TestMethod codeBase="C:/Users/Baran/Desktop/Xylem-Exercise-BaranTopal/C#.NET/Xylem.Routing.v1/Xylem.Routing/bin/Debug/Alatest.Routing.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Routing.Test.WorkItemTest, Alatest.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorkItem_Constructor_Sets_Two_Delimiter_With_One_Numeric1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ab1eac82-8e13-e46d-5bc0-42d3f9450e79" executionId="4562394b-88a5-4c3c-903d-138ce1a6727c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="406970ca-951e-c386-b1ae-c7dca2244b11" executionId="29c84e86-d1c3-4662-86c3-5a7cf3f10018" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3d35b1e-2277-70ed-f8bc-564f00d3c9ea" executionId="67c36484-afe9-4032-a65f-ecf77d4fc584" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="854e9205-6fa8-c676-a5fa-fff6b0dec57a" executionId="63795a5d-db01-43e6-982e-fc000a7a62cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd258010-8ec5-fa57-f67d-af68e6163565" executionId="9f5b3267-62ea-490c-938b-6be3787d400a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="115bce02-3cca-6a89-4be1-b6bcb34d4cd3" executionId="cccc7fcd-e5b8-4eeb-beb7-bcbcbb63d100" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d8cc396-735a-14ad-e883-96db575827fa" executionId="d9255691-9ae8-48b3-9db1-84965a21030d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a142240f-169b-6879-dcaf-bae49812e2d3" executionId="d537d37f-ec08-4ae2-b903-695d0bbfa5a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87a37819-9fe8-c328-c2bf-b03d12472e49" executionId="c6793280-5e8e-49aa-b42a-98b61b8061fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a1529f0-d588-88b3-d558-ede589cc3f93" executionId="35f88183-3e6a-42db-8aae-510280d7eac5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65176b37-e1dd-d711-7e26-7ab50efbd0a0" executionId="8b80522c-af69-4361-98dd-80f31ac68df5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3889717e-20d4-649c-af56-dfa1979dae8b" executionId="28a3b0ef-43c9-4613-9044-d2914e5f2bc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="26316a9e-9a69-5f26-f0ce-78fef82dbb05" executionId="a7ac4c55-d941-4d87-917a-c49014e99226" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb94a57f-86e2-9c76-61a8-f5ac3dcd1ab8" executionId="868eb3e8-c9cd-4dc1-b3df-74012048e894" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a43c837-b6f7-8a58-2ae1-3895827e6b5f" executionId="33cea8e5-80b7-4812-bbe4-e1d31681fe25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="736bbebe-e627-e6f6-4084-a38f2d577388" executionId="0cdc882e-aa7d-4337-9b59-8d8f64a9eb4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c75bb26f-7971-f998-d17c-22496797a229" executionId="d55f832a-c432-4ff7-8e09-5fd039435ca9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8c39a66-25ed-7613-61cf-bf11053721b5" executionId="5f39b30f-f1f0-4a18-8453-3d6371b5aeb3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8bf7b4c8-9b6c-2b5c-c1c3-206ac71259fc" executionId="c621ac08-ac7f-4f60-8038-5f895922d32e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f8c5f17-314d-948f-0284-369b9bbf876b" executionId="d273b329-a894-42ed-aa79-8ffefa40a40c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b134e9a1-740e-2b86-604f-45c29d704c41" executionId="55d33b41-9b00-4627-a93d-786e55cdc875" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42695eaf-d159-db18-bac5-76cfa07cc903" executionId="2d06ce4e-268d-4b5c-943c-bd9f7a68c51c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb8c88ff-8ff6-ae39-8e37-df64873d2ce5" executionId="75938852-78cc-48f5-8b25-0ebc454ea3e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ab84981-3b3a-eaea-7820-8097e782bd0d" executionId="06ee4bce-2514-4eb2-9287-14a1aba1ca59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3dcabc99-b46a-1040-eaec-65f0e985eb42" executionId="363ac641-0dec-43f0-8536-9508689cd2ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cf6d9ad-0b4b-f96b-04b3-595c7550f530" executionId="645e09bd-5eea-4fec-b70f-71a26de82f76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13f5ea85-3c92-4c79-13c8-02df37581306" executionId="ef131cd9-114c-4cfb-9b73-e67e9eba9693" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="028e5c0a-d10d-dc40-4be8-b8fb4a57d4c6" executionId="a7afe5f8-dc36-4e2b-9fed-afeb491e5757" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8033b327-910e-30ec-de2b-20e995f8df96" executionId="50695b85-b4ec-420c-9625-a6373ad7f5be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86aeb78a-8e8e-c8ca-8cdb-577121c05131" executionId="d007ead5-e8f6-4f32-9382-e5f4d52f8579" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa4811cf-e879-dcac-0463-577396cf7190" executionId="eeec55e2-5d9d-424e-b220-5a220e5cf21b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd878030-fd7e-9dee-6362-2cb5df5a7627" executionId="a2e6c1f2-2682-46fa-86fa-b7ec592b30bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d76f6886-5838-e958-30c4-1036540597fb" executionId="3cf501ab-032e-497a-9af0-c84fbd71dae5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7db65c9b-0bde-61e8-c41b-81a49deede45" executionId="3a436bea-eb22-4481-b39a-1fe2be35a515" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05851dfc-e26b-9336-e231-f75a491906f8" executionId="62f97ada-45d8-4aec-afc2-3862bb2b1e50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c46a7de-9ef3-8602-a886-59565de1e5d1" executionId="591bbad9-e490-4aa5-95af-25da16881cb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ccf92d2-a060-1761-27ed-90635de7f638" executionId="9ffd0203-eaf0-4497-b5ac-d54aa52c3d84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b11d1653-7c5d-b5b6-08ca-6a09ac659e6b" executionId="c6766b75-fe60-46c2-898c-acecd59ad9b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c25c1549-d480-1359-d207-db88be7299b8" executionId="06ba5160-bace-4a2f-8496-1b1ac3a8a240" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f87abf3-d8e6-af81-7874-eea8e42101f5" executionId="b57dc97d-0864-4627-9fa7-3b31178dfa30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="063561d7-aa97-89a6-34d5-7abd6d1d457d" executionId="542aaadb-1acd-471e-b1a1-9df5fb5756c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34a7a836-2370-16cf-9d7e-c089260fd84a" executionId="1e3730f0-b44c-4906-92df-6ba768415ff7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b68f3b94-ecad-5e30-a39c-3503bddd880e" executionId="d3f4d4ac-466f-44fe-b23f-11add4ea11d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61581723-8f7e-9df2-5454-63bfc573f2ed" executionId="10c66bfd-08e2-4f18-8e7c-fd225cce85ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58cb2fac-b69c-034b-5e66-ce74d6b1ebc9" executionId="2b695cfc-c635-49e5-beaa-0a36ad78621c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cddf26c-8d34-8ef3-632e-343b72effef5" executionId="cb35f485-bdf6-480c-beaf-89f60e76fbba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a379b317-a5bd-1a86-5945-2c18e3b99109" executionId="f3547158-a1fc-443e-b4f7-405a3574d133" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6878a51-bb05-09ef-4dbd-05539b8fc274" executionId="f2b3643c-4fa7-4d4d-824a-3e68b22bc1b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50a38fe8-d4e4-dec7-2274-38aa967408bd" executionId="bf796ef7-d962-40e4-bf42-9b632bf39aeb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41de26a4-2629-80f3-c59e-967c40264034" executionId="46d9c68b-361b-4d95-8d2e-6e4ea6a5fd7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03581d7c-f453-8b1e-3c1c-4bb017a90a17" executionId="ea09845b-6c30-416f-a7f3-a10a0dd6afb8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fec123b8-cc77-768a-fa3f-9fe0924b6f49" executionId="0295c6e3-1b78-4cb0-82ac-5df8c2f84966" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b9d0900-c4a8-91db-73a9-a891935e1b97" executionId="6a00a50e-f7f5-45f0-8aba-6ed354bc1b94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f296844d-e75d-5e52-8f07-2d9da6b8f871" executionId="fdf3a974-ab40-437e-81e3-d26454fddb0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19194bfb-2edd-c193-9554-38834175cc15" executionId="281436dd-0114-49d5-a41c-ed84387f63f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93620807-0cc0-66f7-ff97-5454076e98d1" executionId="35240ac6-4953-4e50-a4ca-3e273652687b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4562394b-88a5-4c3c-903d-138ce1a6727c" testId="ab1eac82-8e13-e46d-5bc0-42d3f9450e79" testName="WorkItem_Constructor_Sets_Empty" computerName="BARAN-VAIO" duration="00:00:00.0317022" startTime="2013-02-19T06:27:47.1519732+01:00" endTime="2013-02-19T06:27:49.3821007+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4562394b-88a5-4c3c-903d-138ce1a6727c">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="29c84e86-d1c3-4662-86c3-5a7cf3f10018" testId="406970ca-951e-c386-b1ae-c7dca2244b11" testName="WorkItem_Constructor_Sets_One_Alpha" computerName="BARAN-VAIO" duration="00:00:00.0012070" startTime="2013-02-19T06:27:49.3931013+01:00" endTime="2013-02-19T06:27:49.4591051+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29c84e86-d1c3-4662-86c3-5a7cf3f10018">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="67c36484-afe9-4032-a65f-ecf77d4fc584" testId="c3d35b1e-2277-70ed-f8bc-564f00d3c9ea" testName="WorkItem_Constructor_Sets_One_Numeric" computerName="BARAN-VAIO" duration="00:00:00.0046287" startTime="2013-02-19T06:27:49.4661055+01:00" endTime="2013-02-19T06:27:49.5071079+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67c36484-afe9-4032-a65f-ecf77d4fc584">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="63795a5d-db01-43e6-982e-fc000a7a62cf" testId="854e9205-6fa8-c676-a5fa-fff6b0dec57a" testName="WorkItem_Constructor_Sets_One_Delimiter" computerName="BARAN-VAIO" duration="00:00:00.0011129" startTime="2013-02-19T06:27:49.5181085+01:00" endTime="2013-02-19T06:27:49.5541105+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63795a5d-db01-43e6-982e-fc000a7a62cf">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="9f5b3267-62ea-490c-938b-6be3787d400a" testId="fd258010-8ec5-fa57-f67d-af68e6163565" testName="WorkItem_Constructor_Sets_Two_Delimiters1" computerName="BARAN-VAIO" duration="00:00:00.0003850" startTime="2013-02-19T06:27:49.5581108+01:00" endTime="2013-02-19T06:27:49.5991131+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f5b3267-62ea-490c-938b-6be3787d400a">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="cccc7fcd-e5b8-4eeb-beb7-bcbcbb63d100" testId="115bce02-3cca-6a89-4be1-b6bcb34d4cd3" testName="WorkItem_Constructor_Sets_Two_Delimiters2" computerName="BARAN-VAIO" duration="00:00:00.0003870" startTime="2013-02-19T06:27:49.6031134+01:00" endTime="2013-02-19T06:27:49.6331151+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cccc7fcd-e5b8-4eeb-beb7-bcbcbb63d100">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d9255691-9ae8-48b3-9db1-84965a21030d" testId="5d8cc396-735a-14ad-e883-96db575827fa" testName="WorkItem_Constructor_Sets_Two_Delimiters_Diff" computerName="BARAN-VAIO" duration="00:00:00.0093599" startTime="2013-02-19T06:27:49.6401155+01:00" endTime="2013-02-19T06:27:49.6921184+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9255691-9ae8-48b3-9db1-84965a21030d">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d537d37f-ec08-4ae2-b903-695d0bbfa5a2" testId="a142240f-169b-6879-dcaf-bae49812e2d3" testName="WorkItem_Constructor_Sets_Delimiter_With_One_Numeric" computerName="BARAN-VAIO" duration="00:00:00.0125753" startTime="2013-02-19T06:27:49.7221202+01:00" endTime="2013-02-19T06:27:49.7811235+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d537d37f-ec08-4ae2-b903-695d0bbfa5a2">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c6793280-5e8e-49aa-b42a-98b61b8061fa" testId="87a37819-9fe8-c328-c2bf-b03d12472e49" testName="WorkItem_Constructor_Sets_Two_Delimiter_With_One_Numeric1" computerName="BARAN-VAIO" duration="00:00:00.0003907" startTime="2013-02-19T06:27:49.7841237+01:00" endTime="2013-02-19T06:27:49.8101252+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6793280-5e8e-49aa-b42a-98b61b8061fa">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="35f88183-3e6a-42db-8aae-510280d7eac5" testId="3a1529f0-d588-88b3-d558-ede589cc3f93" testName="WorkItem_Constructor_Sets_Two_Delimiter_With_One_Numeric2" computerName="BARAN-VAIO" duration="00:00:00.0057267" startTime="2013-02-19T06:27:49.8141254+01:00" endTime="2013-02-19T06:27:49.8961301+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35f88183-3e6a-42db-8aae-510280d7eac5">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b80522c-af69-4361-98dd-80f31ac68df5" testId="65176b37-e1dd-d711-7e26-7ab50efbd0a0" testName="WorkItem_Constructor_Sets_Two_Delimiter_With_One_Numeric3" computerName="BARAN-VAIO" duration="00:00:00.0119102" startTime="2013-02-19T06:27:49.9091309+01:00" endTime="2013-02-19T06:27:49.9671342+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b80522c-af69-4361-98dd-80f31ac68df5">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="28a3b0ef-43c9-4613-9044-d2914e5f2bc4" testId="3889717e-20d4-649c-af56-dfa1979dae8b" testName="WorkItem_Constructor_Sets_Delimiter_Two_Numerics" computerName="BARAN-VAIO" duration="00:00:00.0011028" startTime="2013-02-19T06:27:49.9821350+01:00" endTime="2013-02-19T06:27:50.0191371+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28a3b0ef-43c9-4613-9044-d2914e5f2bc4">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a7ac4c55-d941-4d87-917a-c49014e99226" testId="26316a9e-9a69-5f26-f0ce-78fef82dbb05" testName="WorkItem_Constructor_Sets_Two_Delims_Two_Numerics1" computerName="BARAN-VAIO" duration="00:00:00.0012443" startTime="2013-02-19T06:27:50.0221373+01:00" endTime="2013-02-19T06:27:50.0531391+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7ac4c55-d941-4d87-917a-c49014e99226">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="868eb3e8-c9cd-4dc1-b3df-74012048e894" testId="eb94a57f-86e2-9c76-61a8-f5ac3dcd1ab8" testName="WorkItem_Constructor_Sets_Two_Delims_Two_Numerics2" computerName="BARAN-VAIO" duration="00:00:00.0042286" startTime="2013-02-19T06:27:50.0701401+01:00" endTime="2013-02-19T06:27:50.1251432+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="868eb3e8-c9cd-4dc1-b3df-74012048e894">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="33cea8e5-80b7-4812-bbe4-e1d31681fe25" testId="5a43c837-b6f7-8a58-2ae1-3895827e6b5f" testName="WorkItem_Constructor_Sets_Two_Delims_Two_Numerics3" computerName="BARAN-VAIO" duration="00:00:00.0014550" startTime="2013-02-19T06:27:50.1381440+01:00" endTime="2013-02-19T06:27:50.2071479+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33cea8e5-80b7-4812-bbe4-e1d31681fe25">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="0cdc882e-aa7d-4337-9b59-8d8f64a9eb4d" testId="736bbebe-e627-e6f6-4084-a38f2d577388" testName="CanRead_Path" computerName="BARAN-VAIO" duration="00:00:00.0426729" startTime="2013-02-19T06:27:50.2191486+01:00" endTime="2013-02-19T06:27:50.2971530+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0cdc882e-aa7d-4337-9b59-8d8f64a9eb4d">
+      <Output>
+        <StdOut>The search found execution takes for 39.3688 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d55f832a-c432-4ff7-8e09-5fd039435ca9" testId="c75bb26f-7971-f998-d17c-22496797a229" testName="CanRead_PartialListTextFile1" computerName="BARAN-VAIO" duration="00:00:00.0011810" startTime="2013-02-19T06:27:50.3031534+01:00" endTime="2013-02-19T06:27:50.3461559+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d55f832a-c432-4ff7-8e09-5fd039435ca9">
+      <Output>
+        <StdOut>The search found execution takes for 0.5706 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f39b30f-f1f0-4a18-8453-3d6371b5aeb3" testId="b8c39a66-25ed-7613-61cf-bf11053721b5" testName="CanRead_PartialListTextFile2" computerName="BARAN-VAIO" duration="00:00:00.0019718" startTime="2013-02-19T06:27:50.3611567+01:00" endTime="2013-02-19T06:27:50.4221602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f39b30f-f1f0-4a18-8453-3d6371b5aeb3">
+      <Output>
+        <StdOut>The search found execution takes for 0.693 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c621ac08-ac7f-4f60-8038-5f895922d32e" testId="8bf7b4c8-9b6c-2b5c-c1c3-206ac71259fc" testName="CanRead_PartialListTextFile3" computerName="BARAN-VAIO" duration="00:00:00.0037690" startTime="2013-02-19T06:27:50.4261604+01:00" endTime="2013-02-19T06:27:50.4701629+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c621ac08-ac7f-4f60-8038-5f895922d32e">
+      <Output>
+        <StdOut>The search found execution takes for 0.8775 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d273b329-a894-42ed-aa79-8ffefa40a40c" testId="4f8c5f17-314d-948f-0284-369b9bbf876b" testName="CannotRead_NoTextFile" computerName="BARAN-VAIO" duration="00:00:00.0604096" startTime="2013-02-19T06:27:50.4881640+01:00" endTime="2013-02-19T06:27:50.6501732+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d273b329-a894-42ed-aa79-8ffefa40a40c">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="55d33b41-9b00-4627-a93d-786e55cdc875" testId="b134e9a1-740e-2b86-604f-45c29d704c41" testName="CanRead_EmptyTextFile" computerName="BARAN-VAIO" duration="00:00:00.0015179" startTime="2013-02-19T06:27:50.6611739+01:00" endTime="2013-02-19T06:27:50.7221774+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55d33b41-9b00-4627-a93d-786e55cdc875">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="2d06ce4e-268d-4b5c-943c-bd9f7a68c51c" testId="42695eaf-d159-db18-bac5-76cfa07cc903" testName="CannotRead_Gibberish" computerName="BARAN-VAIO" duration="00:00:00.0020885" startTime="2013-02-19T06:27:50.7291778+01:00" endTime="2013-02-19T06:27:50.7891812+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d06ce4e-268d-4b5c-943c-bd9f7a68c51c">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="75938852-78cc-48f5-8b25-0ebc454ea3e2" testId="fb8c88ff-8ff6-ae39-8e37-df64873d2ce5" testName="CanJoin_Empty" computerName="BARAN-VAIO" duration="00:00:00.0116783" startTime="2013-02-19T06:27:50.8061822+01:00" endTime="2013-02-19T06:27:50.8581851+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75938852-78cc-48f5-8b25-0ebc454ea3e2">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="06ee4bce-2514-4eb2-9287-14a1aba1ca59" testId="8ab84981-3b3a-eaea-7820-8097e782bd0d" testName="CanJoin_OneAlpha" computerName="BARAN-VAIO" duration="00:00:00.0057376" startTime="2013-02-19T06:27:50.8741861+01:00" endTime="2013-02-19T06:27:50.9151884+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06ee4bce-2514-4eb2-9287-14a1aba1ca59">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="363ac641-0dec-43f0-8536-9508689cd2ec" testId="3dcabc99-b46a-1040-eaec-65f0e985eb42" testName="CanJoin_OneDelim" computerName="BARAN-VAIO" duration="00:00:00.0136980" startTime="2013-02-19T06:27:50.9211887+01:00" endTime="2013-02-19T06:27:50.9761919+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="363ac641-0dec-43f0-8536-9508689cd2ec">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="645e09bd-5eea-4fec-b70f-71a26de82f76" testId="6cf6d9ad-0b4b-f96b-04b3-595c7550f530" testName="CanJoin_OneDelimOneAlpha" computerName="BARAN-VAIO" duration="00:00:00.0052022" startTime="2013-02-19T06:27:50.9881926+01:00" endTime="2013-02-19T06:27:51.0431957+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="645e09bd-5eea-4fec-b70f-71a26de82f76">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef131cd9-114c-4cfb-9b73-e67e9eba9693" testId="13f5ea85-3c92-4c79-13c8-02df37581306" testName="CanJoin_OneNumeric" computerName="BARAN-VAIO" duration="00:00:00.0114688" startTime="2013-02-19T06:27:51.0561965+01:00" endTime="2013-02-19T06:27:51.1081994+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef131cd9-114c-4cfb-9b73-e67e9eba9693">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a7afe5f8-dc36-4e2b-9fed-afeb491e5757" testId="028e5c0a-d10d-dc40-4be8-b8fb4a57d4c6" testName="CanJoin_OneDelimOneNumeric" computerName="BARAN-VAIO" duration="00:00:00.0004661" startTime="2013-02-19T06:27:51.1262005+01:00" endTime="2013-02-19T06:27:51.1602024+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7afe5f8-dc36-4e2b-9fed-afeb491e5757">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="50695b85-b4ec-420c-9625-a6373ad7f5be" testId="8033b327-910e-30ec-de2b-20e995f8df96" testName="CanJoin_OneDelimTwoNumeric" computerName="BARAN-VAIO" duration="00:00:00.0003882" startTime="2013-02-19T06:27:51.1802036+01:00" endTime="2013-02-19T06:27:51.2292064+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50695b85-b4ec-420c-9625-a6373ad7f5be">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d007ead5-e8f6-4f32-9382-e5f4d52f8579" testId="86aeb78a-8e8e-c8ca-8cdb-577121c05131" testName="CanJoin_TwoNumeric" computerName="BARAN-VAIO" duration="00:00:00.0086531" startTime="2013-02-19T06:27:51.2382069+01:00" endTime="2013-02-19T06:27:51.2772091+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d007ead5-e8f6-4f32-9382-e5f4d52f8579">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="eeec55e2-5d9d-424e-b220-5a220e5cf21b" testId="fa4811cf-e879-dcac-0463-577396cf7190" testName="CanJoin_TwoDelims_OneNumeric" computerName="BARAN-VAIO" duration="00:00:00.0004203" startTime="2013-02-19T06:27:51.2962102+01:00" endTime="2013-02-19T06:27:51.3352124+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eeec55e2-5d9d-424e-b220-5a220e5cf21b">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a2e6c1f2-2682-46fa-86fa-b7ec592b30bf" testId="bd878030-fd7e-9dee-6362-2cb5df5a7627" testName="CannotJoin_NonAlpha" computerName="BARAN-VAIO" duration="00:00:00.0037637" startTime="2013-02-19T06:27:51.3412128+01:00" endTime="2013-02-19T06:27:51.3852153+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2e6c1f2-2682-46fa-86fa-b7ec592b30bf">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="3cf501ab-032e-497a-9af0-c84fbd71dae5" testId="d76f6886-5838-e958-30c4-1036540597fb" testName="CanGetOccurence_Empty1" computerName="BARAN-VAIO" duration="00:00:00.0037325" startTime="2013-02-19T06:27:51.4012162+01:00" endTime="2013-02-19T06:27:51.4632197+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cf501ab-032e-497a-9af0-c84fbd71dae5">
+      <Output>
+        <StdOut>The search found execution takes for 0.933 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="3a436bea-eb22-4481-b39a-1fe2be35a515" testId="7db65c9b-0bde-61e8-c41b-81a49deede45" testName="CanGetOccurence_Empty2" computerName="BARAN-VAIO" duration="00:00:00.0007936" startTime="2013-02-19T06:27:51.4812208+01:00" endTime="2013-02-19T06:27:51.5132226+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a436bea-eb22-4481-b39a-1fe2be35a515">
+      <Output>
+        <StdOut>The search found execution takes for 0.0068 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="62f97ada-45d8-4aec-afc2-3862bb2b1e50" testId="05851dfc-e26b-9336-e231-f75a491906f8" testName="CanGetOccurence_AlphaZeroMatch" computerName="BARAN-VAIO" duration="00:00:00.0020476" startTime="2013-02-19T06:27:51.5322237+01:00" endTime="2013-02-19T06:27:51.5722260+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62f97ada-45d8-4aec-afc2-3862bb2b1e50">
+      <Output>
+        <StdOut>The search found execution takes for 0.0012 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="591bbad9-e490-4aa5-95af-25da16881cb4" testId="2c46a7de-9ef3-8602-a886-59565de1e5d1" testName="CanGetOccurence_AlphaOneMatch" computerName="BARAN-VAIO" duration="00:00:00.0009958" startTime="2013-02-19T06:27:51.5782263+01:00" endTime="2013-02-19T06:27:51.6082280+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="591bbad9-e490-4aa5-95af-25da16881cb4">
+      <Output>
+        <StdOut>The search found execution takes for 0.1341 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="9ffd0203-eaf0-4497-b5ac-d54aa52c3d84" testId="6ccf92d2-a060-1761-27ed-90635de7f638" testName="CanGetOccurence_NoMatchAtAll1" computerName="BARAN-VAIO" duration="00:00:00.0060659" startTime="2013-02-19T06:27:51.6292292+01:00" endTime="2013-02-19T06:27:51.6702316+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ffd0203-eaf0-4497-b5ac-d54aa52c3d84">
+      <Output>
+        <StdOut>The search found execution takes for 0.004 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c6766b75-fe60-46c2-898c-acecd59ad9b7" testId="b11d1653-7c5d-b5b6-08ca-6a09ac659e6b" testName="CanGetOccurence_NoMatchAtAll2" computerName="BARAN-VAIO" duration="00:00:00.0085562" startTime="2013-02-19T06:27:51.6802322+01:00" endTime="2013-02-19T06:27:51.8102396+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6766b75-fe60-46c2-898c-acecd59ad9b7">
+      <Output>
+        <StdOut>The search found execution takes for 0.0036 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="06ba5160-bace-4a2f-8496-1b1ac3a8a240" testId="c25c1549-d480-1359-d207-db88be7299b8" testName="CanGetOccurence_PartialMatch_Discard" computerName="BARAN-VAIO" duration="00:00:00.0065803" startTime="2013-02-19T06:27:51.8142398+01:00" endTime="2013-02-19T06:27:51.8462417+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06ba5160-bace-4a2f-8496-1b1ac3a8a240">
+      <Output>
+        <StdOut>The search found execution takes for 0.0036 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="b57dc97d-0864-4627-9fa7-3b31178dfa30" testId="6f87abf3-d8e6-af81-7874-eea8e42101f5" testName="CanGetOccurence_Perfect_Match" computerName="BARAN-VAIO" duration="00:00:00.0063103" startTime="2013-02-19T06:27:51.8572423+01:00" endTime="2013-02-19T06:27:51.8912442+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b57dc97d-0864-4627-9fa7-3b31178dfa30">
+      <Output>
+        <StdOut>The search found execution takes for 0.0044 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="542aaadb-1acd-471e-b1a1-9df5fb5756c8" testId="063561d7-aa97-89a6-34d5-7abd6d1d457d" testName="CanGetOccurence_Perfect_Match_Long_Limit" computerName="BARAN-VAIO" duration="00:00:00.0139254" startTime="2013-02-19T06:27:51.9022449+01:00" endTime="2013-02-19T06:27:51.9552479+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="542aaadb-1acd-471e-b1a1-9df5fb5756c8">
+      <Output>
+        <StdOut>The search found execution takes for 0.0036 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="1e3730f0-b44c-4906-92df-6ba768415ff7" testId="34a7a836-2370-16cf-9d7e-c089260fd84a" testName="CanGetOccurence_ExampleData" computerName="BARAN-VAIO" duration="00:00:00.0013144" startTime="2013-02-19T06:27:51.9632483+01:00" endTime="2013-02-19T06:27:52.0042507+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e3730f0-b44c-4906-92df-6ba768415ff7">
+      <Output>
+        <StdOut>The search found execution takes for 0.0036 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="d3f4d4ac-466f-44fe-b23f-11add4ea11d3" testId="b68f3b94-ecad-5e30-a39c-3503bddd880e" testName="CanGetOccurence_MultiMatch" computerName="BARAN-VAIO" duration="00:00:00.0375152" startTime="2013-02-19T06:27:52.0212517+01:00" endTime="2013-02-19T06:27:52.1702602+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3f4d4ac-466f-44fe-b23f-11add4ea11d3">
+      <Output>
+        <StdOut>The search found execution takes for 0.0064 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="10c66bfd-08e2-4f18-8e7c-fd225cce85ac" testId="61581723-8f7e-9df2-5454-63bfc573f2ed" testName="CanGetOccurence_InputUpBoundaryExceedIntegerPartialMatchDiscard" computerName="BARAN-VAIO" duration="00:00:00.0426052" startTime="2013-02-19T06:27:52.1922614+01:00" endTime="2013-02-19T06:27:52.3902728+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10c66bfd-08e2-4f18-8e7c-fd225cce85ac">
+      <Output>
+        <StdOut>The search found execution takes for 0.0036 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="2b695cfc-c635-49e5-beaa-0a36ad78621c" testId="58cb2fac-b69c-034b-5e66-ce74d6b1ebc9" testName="CanGetOccurence_InputUpBoundaryExceedIntegerLongestMatch" computerName="BARAN-VAIO" duration="00:00:00.0067943" startTime="2013-02-19T06:27:52.4082738+01:00" endTime="2013-02-19T06:27:52.4652771+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b695cfc-c635-49e5-beaa-0a36ad78621c">
+      <Output>
+        <StdOut>The search found execution takes for 0.0044 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="cb35f485-bdf6-480c-beaf-89f60e76fbba" testId="6cddf26c-8d34-8ef3-632e-343b72effef5" testName="CanGetOccurence_InputUpBoundaryExceedIntegerMultiMatch" computerName="BARAN-VAIO" duration="00:00:00.0073536" startTime="2013-02-19T06:27:52.4772777+01:00" endTime="2013-02-19T06:27:52.5172800+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb35f485-bdf6-480c-beaf-89f60e76fbba">
+      <Output>
+        <StdOut>The search found execution takes for 0.0052 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="f3547158-a1fc-443e-b4f7-405a3574d133" testId="a379b317-a5bd-1a86-5945-2c18e3b99109" testName="CanGetOccurence_InputUpBoundaryExceedIntegerNoMatch" computerName="BARAN-VAIO" duration="00:00:00.0013898" startTime="2013-02-19T06:27:52.5362811+01:00" endTime="2013-02-19T06:27:52.5852839+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3547158-a1fc-443e-b4f7-405a3574d133">
+      <Output>
+        <StdOut>The search found execution takes for 0.0036 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="f2b3643c-4fa7-4d4d-824a-3e68b22bc1b2" testId="e6878a51-bb05-09ef-4dbd-05539b8fc274" testName="CanGetOccurence_InputLowBoundaryExceedIntegerNoMatch" computerName="BARAN-VAIO" duration="00:00:00.0013330" startTime="2013-02-19T06:27:52.6052851+01:00" endTime="2013-02-19T06:27:52.6432872+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2b3643c-4fa7-4d4d-824a-3e68b22bc1b2">
+      <Output>
+        <StdOut>The search found execution takes for 0.0032 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="bf796ef7-d962-40e4-bf42-9b632bf39aeb" testId="50a38fe8-d4e4-dec7-2274-38aa967408bd" testName="CanGetOccurence_InputLowBoundaryExceedIntegerPartialMatchDiscard" computerName="BARAN-VAIO" duration="00:00:00.0063010" startTime="2013-02-19T06:27:52.6502876+01:00" endTime="2013-02-19T06:27:52.7502934+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf796ef7-d962-40e4-bf42-9b632bf39aeb">
+      <Output>
+        <StdOut>The search found execution takes for 0.0044 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="46d9c68b-361b-4d95-8d2e-6e4ea6a5fd7b" testId="41de26a4-2629-80f3-c59e-967c40264034" testName="CanGetOccurence_InputLowBoundaryExceedIntegerLongestMatch" computerName="BARAN-VAIO" duration="00:00:00.0007859" startTime="2013-02-19T06:27:52.7662943+01:00" endTime="2013-02-19T06:27:52.8112968+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46d9c68b-361b-4d95-8d2e-6e4ea6a5fd7b">
+      <Output>
+        <StdOut>The search found execution takes for 0.004 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea09845b-6c30-416f-a7f3-a10a0dd6afb8" testId="03581d7c-f453-8b1e-3c1c-4bb017a90a17" testName="CanGetOccurence_InputLowBoundaryExceedIntegerMultiMatch" computerName="BARAN-VAIO" duration="00:00:00.0027237" startTime="2013-02-19T06:27:52.8242976+01:00" endTime="2013-02-19T06:27:52.8983018+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea09845b-6c30-416f-a7f3-a10a0dd6afb8">
+      <Output>
+        <StdOut>The search found execution takes for 0.0052 milliseconds</StdOut>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="0295c6e3-1b78-4cb0-82ac-5df8c2f84966" testId="fec123b8-cc77-768a-fa3f-9fe0924b6f49" testName="Set_Prefix_With_0_By_Constructor" computerName="BARAN-VAIO" duration="00:00:00.0018567" startTime="2013-02-19T06:27:52.9133027+01:00" endTime="2013-02-19T06:27:52.9493047+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0295c6e3-1b78-4cb0-82ac-5df8c2f84966">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="6a00a50e-f7f5-45f0-8aba-6ed354bc1b94" testId="8b9d0900-c4a8-91db-73a9-a891935e1b97" testName="Set_Prefix_With_1_By_Constructor" computerName="BARAN-VAIO" duration="00:00:00.0044503" startTime="2013-02-19T06:27:52.9643056+01:00" endTime="2013-02-19T06:27:53.0043079+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a00a50e-f7f5-45f0-8aba-6ed354bc1b94">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="fdf3a974-ab40-437e-81e3-d26454fddb0c" testId="f296844d-e75d-5e52-8f07-2d9da6b8f871" testName="Set_Prefix_With_Negative_By_Constructor" computerName="BARAN-VAIO" duration="00:00:00.0005694" startTime="2013-02-19T06:27:53.0133084+01:00" endTime="2013-02-19T06:27:53.0893128+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdf3a974-ab40-437e-81e3-d26454fddb0c">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="281436dd-0114-49d5-a41c-ed84387f63f3" testId="19194bfb-2edd-c193-9554-38834175cc15" testName="Set_Prefix_With_Boundary_By_Constructor" computerName="BARAN-VAIO" duration="00:00:00.0063233" startTime="2013-02-19T06:27:53.0953131+01:00" endTime="2013-02-19T06:27:53.1353154+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="281436dd-0114-49d5-a41c-ed84387f63f3">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="35240ac6-4953-4e50-a4ca-3e273652687b" testId="93620807-0cc0-66f7-ff97-5454076e98d1" testName="Set_Price_Prefix_With_Boundary_1_By_Constructor" computerName="BARAN-VAIO" duration="00:00:00.0145383" startTime="2013-02-19T06:27:53.1613169+01:00" endTime="2013-02-19T06:27:53.2463217+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35240ac6-4953-4e50-a4ca-3e273652687b">
+      <CollectorDataEntries>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\SystemInformation.xml">System Information from BARAN-VAIO</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="BARAN-VAIO" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="BARAN-VAIO\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="WorkItem_Constructor_Sets_Two_Delimiters1" IsTestCase="false" TestCaseId="0" AutomatedTestId="fd258010-8ec5-fa57-f67d-af68e6163565">
+  <Signatures>
+    <Signature>C3670E78F1F011ECBFCBE4F751D30C97F3FBB88F</Signature>
+    <Signature>6057EEB46A9781152950383D0F3107A7373702E5</Signature>
+    <Signature>1515BB6DEEE28007DDF10F6063D94C816195536A</Signature>
+    <Signature>D90E1029E6E3D3DAC1252B788B97568B4E80EF33</Signature>
+    <Signature>F2841C485E31660EA30A74023A1618F8196CCE4F</Signature>
+    <Signature>319C9E07FBC806AD0E3F9E6360DFF3FDC47CC442</Signature>
+    <Signature>D309CA084D4BCB6DC9BB46E7EF887688D55B5293</Signature>
+  </Signatures>
+</Test>
